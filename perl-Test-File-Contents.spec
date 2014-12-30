@@ -55,6 +55,11 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/Test::File::Contents.3pm*
 
 %changelog
+* Tue Dec 30 2014 Rajiv M Ranganath <rajiv.ranganath@atihita.com> 0.21-1
+- Adapt for AL/LL
+- Add package support URL
+- Import source package EPEL7/perl-Test-File-Contents-0.21-1.el7
+
 * Mon Oct 21 2013 Paul Howarth <paul@city-fan.org> - 0.21-1
 - Update to 0.21
   - Require Test::Pod 1.41 for Pod tests, fixing test failures due to the use
