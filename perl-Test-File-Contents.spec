@@ -1,6 +1,8 @@
+%define _buildid .2
+
 Name:           perl-Test-File-Contents
 Version:        0.21
-Release:        1%{?dist}
+Release:        1%{?_buildid}%{?dist}
 Summary:        Test routines for examining the contents of files
 License:        GPL+ or Artistic
 Group:          Development/Libraries
