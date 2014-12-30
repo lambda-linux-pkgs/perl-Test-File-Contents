@@ -24,6 +24,9 @@ BuildRequires:  perl(warnings)
 Requires:       perl(:MODULE_COMPAT_%(eval "`perl -V:version`"; echo $version))
 
 %description
+For package support, please visit
+https://github.com/lambda-linux-pkgs/%{name}/issues
+
 Test routines for examining the contents of files.
 
 %prep
